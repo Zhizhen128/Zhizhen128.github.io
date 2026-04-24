@@ -1,113 +1,69 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zhizhen Chen</title>
-  <meta name="description" content="Personal academic website of Zhizhen Chen, PhD student in Statistics at the University of Southern California.">
-  <meta property="og:title" content="Zhizhen Chen">
-  <meta property="og:description" content="Research, writing, and selected projects.">
-  <meta property="og:type" content="website">
-  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="description" content="Zhizhen Chen — PhD student in Statistics at the University of Southern California." />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="index.html">Zhizhen Chen</a>
-    <nav aria-label="Primary navigation">
-      <a href="research.html">Research</a>
-      <a href="writing.html">Writing</a>
-      <a href="bio.html">Bio</a>
-      <a href="files/cv.pdf">CV</a>
-    </nav>
-  </header>
-
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Statistics · USC · Research</p>
+    <section class="hero wrap">
+      <div class="photo-block">
+        <div class="portrait placeholder">ZC</div>
+        <a class="small-link" href="#">personal note ↗</a>
+      </div>
+      <div class="intro">
         <h1>Zhizhen Chen</h1>
-        <p class="lead">PhD student in Statistics at the University of Southern California.</p>
-        <p>
-          I work on statistical methods for <span class="placeholder">[your research area]</span>,
-          with interests in <span class="placeholder">[keyword 1]</span>,
-          <span class="placeholder">[keyword 2]</span>, and
-          <span class="placeholder">[application/domain]</span>. This site collects my research,
-          short notes, teaching materials, and selected projects.
-        </p>
-        <div class="actions">
-          <a class="button" href="research.html">Read research</a>
-          <a class="button secondary" href="mailto:your-email@example.com">Email me</a>
-        </div>
+        <p class="role">PhD Student in Statistics<br>University of Southern California</p>
+        <p class="education">Previously: University of Oxford <a class="mail" href="mailto:zhizhenc@usc.edu">✉</a></p>
+        <p class="summary">I am interested in statistical methods for reliable inference, interpretable computation, and scientific decision-making. My current work spans post-selection inference, privacy-aware inference, and simulation-based evaluation of statistical procedures.</p>
       </div>
-      <aside class="profile-card" aria-label="Profile summary">
-        <div class="avatar" role="img" aria-label="Profile photo placeholder">ZC</div>
-        <h2>Current focus</h2>
-        <p>Building rigorous, interpretable statistical tools for real scientific questions.</p>
-        <dl>
-          <div>
-            <dt>Affiliation</dt>
-            <dd>USC Statistics</dd>
-          </div>
-          <div>
-            <dt>Location</dt>
-            <dd>Los Angeles</dd>
-          </div>
-          <div>
-            <dt>Contact</dt>
-            <dd><a href="mailto:your-email@example.com">your-email@example.com</a></dd>
-          </div>
-        </dl>
-      </aside>
     </section>
 
-    <section class="grid two-columns section-gap">
-      <article class="panel">
+    <section class="two-col wrap section-gap">
+      <article>
         <h2>Research</h2>
-        <p>
-          My research aims to connect statistical theory, reliable computation, and substantive scientific interpretation.
-        </p>
-        <ul class="clean-list">
-          <li><a href="research.html#working-papers">Working papers</a></li>
-          <li><a href="research.html#publications">Publications</a></li>
-          <li><a href="research.html#projects">Projects and code</a></li>
-        </ul>
+        <p>My research focuses on statistical inference in settings where the data analysis pipeline itself creates uncertainty: model selection, adaptive procedures, privacy constraints, and computational choices.</p>
+        <p><a href="research.html">Research projects →</a></p>
+        <p><a href="files/cv.pdf">CV →</a></p>
       </article>
-      <article class="panel">
-        <h2>Writing</h2>
-        <p>
-          Short notes on statistics, research practice, and problems that do not fit neatly into papers.
-        </p>
-        <ul class="clean-list">
-          <li><a href="writing.html">Recent notes</a></li>
-          <li><a href="bio.html#teaching">Teaching materials</a></li>
-          <li><a href="bio.html#contact">Contact and links</a></li>
-        </ul>
+      <article>
+        <h2>Selected Interests</h2>
+        <p>Post-selection inference, differential privacy, e-values, causal reasoning, and reproducible computational statistics.</p>
+        <p><a href="writing.html">Writing and notes →</a></p>
+        <p><a href="bio.html">Bio →</a></p>
       </article>
     </section>
 
-    <section class="section-gap">
-      <div class="section-heading">
-        <h2>Selected work</h2>
-        <a href="research.html">All research →</a>
-      </div>
-      <div class="paper-list">
-        <article class="paper">
-          <h3><a href="#">Title of working paper</a></h3>
-          <p class="meta">Zhizhen Chen, Coauthor Name · Working paper</p>
-          <p>One-sentence summary: what problem the paper solves, why it matters, and what is methodologically new.</p>
+    <section class="band">
+      <div class="two-col wrap">
+        <article>
+          <h2>Current Projects</h2>
+          <p><a href="research.html">Post-selection inference and differential privacy ↗</a></p>
+          <p>Developing and evaluating inference procedures that remain interpretable after data-dependent selection while respecting privacy constraints.</p>
         </article>
-        <article class="paper">
-          <h3><a href="#">Title of selected project</a></h3>
-          <p class="meta">Project · Code / demo</p>
-          <p>One-sentence summary of the project, ideally linking a statistical idea to an observable output.</p>
+        <article>
+          <h2>&nbsp;</h2>
+          <p><a href="research.html">Adaptive e-values and power simulation ↗</a></p>
+          <p>Simulation-based comparison of adaptive testing procedures, with emphasis on power, robustness, and transparent error control.</p>
         </article>
       </div>
     </section>
+
+    <section class="wrap contributions">
+      <h2>Selected Contributions</h2>
+      <ul>
+        <li>Valuation of AI Companies: Leveraging Large-Language Models and Deep Learning Approaches. <a href="research.html">Details →</a></li>
+        <li>Research and code notes on statistical learning, reproducible simulation, and applied inference. <a href="writing.html">Notes →</a></li>
+      </ul>
+    </section>
+
+    <footer class="wrap footer">
+      <span>© 2026 Zhizhen Chen.</span>
+      <span><a href="mailto:zhizhenc@usc.edu">Email</a> · <a href="https://github.com/Zhizhen128">GitHub</a> · <a href="https://www.linkedin.com/in/zhizhen-chen-1458b321a">LinkedIn</a> · <a href="#">Google Scholar</a></span>
+    </footer>
   </main>
-
-  <footer class="site-footer">
-    <p>© 2026 Zhizhen Chen. Last updated April 2026.</p>
-    <p><a href="mailto:your-email@example.com">Email</a> · <a href="https://github.com/your-github-username">GitHub</a> · <a href="https://scholar.google.com/">Google Scholar</a></p>
-  </footer>
 </body>
 </html>
