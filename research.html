@@ -4,27 +4,62 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Research — Zhizhen Chen</title>
+  <meta name="description" content="Research projects by Zhizhen Chen." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
+  <header class="wrap topbar">
+    <a href="index.html">Zhizhen Chen</a>
+    <nav>
+      <a href="research.html">Research</a>
+      <a href="writing.html">Writing</a>
+      <a href="bio.html">Bio</a>
+      <a href="files/cv.pdf">CV</a>
+    </nav>
+  </header>
+
   <main class="wrap page">
-    <nav><a href="index.html">← Home</a></nav>
     <h1>Research</h1>
-    <section class="project">
+    <p class="lede">
+      My research interests center on reliable statistical inference in modern data-analysis workflows, especially when selection, privacy, adaptivity, or computation affects the interpretation of evidence.
+    </p>
+
+    <section id="psi-dp" class="item">
       <h2>Post-selection inference and differential privacy</h2>
       <p class="meta">Ongoing research project</p>
-      <p>Developing inference procedures for settings where model selection and privacy constraints both affect uncertainty quantification.</p>
+      <p>
+        This project studies how valid inference after model or hypothesis selection interacts with privacy-preserving data analysis. The central question is whether uncertainty introduced by selection and privacy noise can be handled in a unified inferential framework rather than treated as separate technical constraints.
+      </p>
     </section>
-    <section class="project">
+
+    <section id="evalues" class="item">
       <h2>Adaptive e-values and power simulation</h2>
       <p class="meta">Ongoing research project</p>
-      <p>Comparing adaptive testing methods through simulation, with attention to power, robustness, and assumptions behind error control.</p>
+      <p>
+        This project investigates covariate-guided constructions of e-values and compares their power against existing methods through simulation. The emphasis is on identifying when adaptivity improves detection while preserving rigorous error control.
+      </p>
     </section>
-    <section class="project">
+
+    <section id="ai-valuation" class="item">
       <h2>Valuation of AI Companies: Leveraging Large-Language Models and Deep Learning Approaches</h2>
-      <p class="meta">Z Chen · Proceedings of the 2024 10th International Conference on Computer Technology</p>
-      <p>Applied machine learning project on AI company valuation using large-language-model and deep-learning approaches.</p>
+      <p class="meta">Z. Chen · Proceedings of the 2024 10th International Conference on Computer Technology Applications</p>
+      <p>
+        This work explored the use of large-language models and deep learning approaches in the valuation of AI companies.
+      </p>
+    </section>
+
+    <section id="portfolio" class="item">
+      <h2>Portfolio allocation and walk-forward backtesting</h2>
+      <p class="meta">Course / applied research project</p>
+      <p>
+        This project compares portfolio allocation strategies across crypto and traditional assets using monthly walk-forward backtesting and performance metrics such as return, volatility, drawdown, and risk-adjusted performance.
+      </p>
     </section>
   </main>
+
+  <footer class="wrap footer">
+    <span>© 2026 Zhizhen Chen.</span>
+    <span class="links"><a href="index.html">Home</a><a href="mailto:zhizhenc@usc.edu">Email</a></span>
+  </footer>
 </body>
 </html>
