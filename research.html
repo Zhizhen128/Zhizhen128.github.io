@@ -4,62 +4,82 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Research — Zhizhen Chen</title>
-  <meta name="description" content="Research projects by Zhizhen Chen." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="wrap topbar">
-    <a href="index.html">Zhizhen Chen</a>
-    <nav>
-      <a href="research.html">Research</a>
-      <a href="writing.html">Writing</a>
-      <a href="bio.html">Bio</a>
-      <a href="files/cv.pdf">CV</a>
-    </nav>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="site-name" href="index.html">Zhizhen Chen</a>
+      <nav aria-label="Main navigation">
+        <a href="research.html">Research</a>
+        <a href="writing.html">Writing</a>
+        <a href="bio.html">Bio</a>
+        <a href="files/cv.pdf">CV</a>
+      </nav>
+    </div>
   </header>
 
   <main class="wrap page">
     <h1>Research</h1>
-    <p class="lede">
-      My research interests center on reliable statistical inference in modern data-analysis workflows, especially when selection, privacy, adaptivity, or computation affects the interpretation of evidence.
+    <p class="page-lead">
+      I am interested in statistical procedures that remain valid after data-dependent choices: selection,
+      adaptation, privacy-preserving mechanisms, and computational approximations.
     </p>
 
-    <section id="psi-dp" class="item">
-      <h2>Post-selection inference and differential privacy</h2>
-      <p class="meta">Ongoing research project</p>
-      <p>
-        This project studies how valid inference after model or hypothesis selection interacts with privacy-preserving data analysis. The central question is whether uncertainty introduced by selection and privacy noise can be handled in a unified inferential framework rather than treated as separate technical constraints.
-      </p>
-    </section>
+    <section class="item-list">
+      <article class="research-item">
+        <h2>Multiple Testing and Closed Testing Procedures</h2>
+        <p class="meta">With Prof. Zijun Gao · Ongoing research, USC</p>
+        <p>
+          This project develops and evaluates multiple-testing procedures based on the closure principle. The work
+          benchmarks proposed procedures against Cauchy-based closed-testing baselines across structured examples
+          such as platform-trial timelines, factorial designs, and subgroup-testing settings, with a focus on power
+          and Type I error control.
+        </p>
+      </article>
 
-    <section id="evalues" class="item">
-      <h2>Adaptive e-values and power simulation</h2>
-      <p class="meta">Ongoing research project</p>
-      <p>
-        This project investigates covariate-guided constructions of e-values and compares their power against existing methods through simulation. The emphasis is on identifying when adaptivity improves detection while preserving rigorous error control.
-      </p>
-    </section>
+      <article class="research-item">
+        <h2>Post-selection Inference under Differential Privacy</h2>
+        <p class="meta">Early-stage research project</p>
+        <p>
+          This project studies how selective inference changes when the selection stage is subject to differential
+          privacy constraints. The central question is whether valid confidence intervals and uncertainty statements
+          can be constructed when the selected index and its uncertainty are affected by privacy noise.
+        </p>
+      </article>
 
-    <section id="ai-valuation" class="item">
-      <h2>Valuation of AI Companies: Leveraging Large-Language Models and Deep Learning Approaches</h2>
-      <p class="meta">Z. Chen · Proceedings of the 2024 10th International Conference on Computer Technology Applications</p>
-      <p>
-        This work explored the use of large-language models and deep learning approaches in the valuation of AI companies.
-      </p>
-    </section>
+      <article class="research-item">
+        <h2>Adaptive E-values and Power in Structured Testing</h2>
+        <p class="meta">Ongoing methodological exploration</p>
+        <p>
+          This project investigates adaptive choices of e-value constructions in structured testing problems. The
+          goal is to understand when covariate-guided choices can improve power while preserving valid error control.
+        </p>
+      </article>
 
-    <section id="portfolio" class="item">
-      <h2>Portfolio allocation and walk-forward backtesting</h2>
-      <p class="meta">Course / applied research project</p>
-      <p>
-        This project compares portfolio allocation strategies across crypto and traditional assets using monthly walk-forward backtesting and performance metrics such as return, volatility, drawdown, and risk-adjusted performance.
-      </p>
+      <article class="research-item">
+        <h2>Dynamic Portfolio Allocation and Statistical Learning</h2>
+        <p class="meta">Earlier project / computational statistics</p>
+        <p>
+          This line of work studies portfolio allocation under uncertainty using dynamic decision models and empirical
+          backtesting. Earlier work used Markov decision processes to formalize portfolio and consumption choices.
+        </p>
+      </article>
+
+      <article class="research-item">
+        <h2>Valuation of AI Companies using LLMs and Deep Learning</h2>
+        <p class="meta">Earlier research project</p>
+        <p>
+          This project developed a hybrid valuation framework combining deep-learning feature extraction with
+          large-language-model signals and multi-source indicators of technological activity.
+        </p>
+      </article>
     </section>
   </main>
 
   <footer class="wrap footer">
     <span>© 2026 Zhizhen Chen.</span>
-    <span class="links"><a href="index.html">Home</a><a href="mailto:zhizhenc@usc.edu">Email</a></span>
+    <span><a href="mailto:zhizhenc@usc.edu">Email</a> · <a href="https://github.com/Zhizhen128">GitHub</a> · <a href="files/cv.pdf">CV</a></span>
   </footer>
 </body>
 </html>

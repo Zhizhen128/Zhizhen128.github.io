@@ -8,18 +8,43 @@
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="site-name" href="index.html">Zhizhen Chen</a>
+      <nav aria-label="Main navigation">
+        <a href="research.html">Research</a>
+        <a href="writing.html">Writing</a>
+        <a href="bio.html">Bio</a>
+        <a href="files/cv.pdf">CV</a>
+        <a href="mailto:zhizhenc@usc.edu">Email</a>
+      </nav>
+    </div>
+  </header>
+
   <main>
     <section class="hero wrap">
       <div class="photo-block">
-        <img class="portrait" src="assets/profile.jpg" alt="Zhizhen Chen">
+        <img class="portrait" src="assets/profile.jpg" alt="Portrait of Zhizhen Chen">
       </div>
 
       <div class="intro">
         <h1>Zhizhen Chen</h1>
         <p class="role">PhD Student in Statistics<br>University of Southern California</p>
-        <p class="education">Previously: University of Oxford <a class="mail" href="mailto:zhizhenc@usc.edu" aria-label="Email Zhizhen Chen">✉</a></p>
+        <p class="education">Previously: MMath in Mathematics and Statistics, University of Oxford <a class="mail" href="mailto:zhizhenc@usc.edu" aria-label="Email">✉</a></p>
+
         <p class="summary">
-          I am interested in statistical methods for reliable inference, interpretable computation, and scientific decision-making. My current work spans post-selection inference, differential privacy, e-values, causal reasoning, and reproducible computational statistics.
+          I work on statistical inference after data-dependent decisions, with interests in multiple testing,
+          post-selection inference, differential privacy, and computational methods for reliable scientific decision-making.
+        </p>
+
+        <p class="link-row">
+          <a href="research.html">Research</a>
+          <span>·</span>
+          <a href="files/cv.pdf">CV</a>
+          <span>·</span>
+          <a href="https://github.com/Zhizhen128">GitHub</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/zhizhen-chen-1458b321a/">LinkedIn</a>
         </p>
       </div>
     </section>
@@ -28,54 +53,58 @@
       <article>
         <h2>Research</h2>
         <p>
-          My research focuses on statistical inference in settings where the data analysis pipeline itself creates uncertainty: model selection, adaptive procedures, privacy constraints, and computational decisions.
+          My current work focuses on statistical inference in settings where the analysis pipeline itself creates
+          uncertainty: model selection, adaptive procedures, privacy constraints, and computational decisions.
         </p>
         <p><a href="research.html">Research projects →</a></p>
-        <p><a href="files/cv.pdf">CV →</a></p>
       </article>
 
       <article>
-        <h2>Selected Interests</h2>
-        <p>Post-selection inference, differential privacy, e-values, causal reasoning, and reproducible computational statistics.</p>
+        <h2>Selected interests</h2>
+        <p>
+          Multiple testing, closed testing, post-selection inference, differential privacy, e-values,
+          causal reasoning, and reproducible computational statistics.
+        </p>
         <p><a href="writing.html">Writing and notes →</a></p>
         <p><a href="bio.html">Bio →</a></p>
       </article>
     </section>
 
     <section class="band">
-      <div class="two-col wrap">
-        <article>
-          <h2>Current Projects</h2>
-          <p><a href="research.html#psi-dp">Post-selection inference and differential privacy →</a></p>
-          <p>Developing research questions at the intersection of valid selective inference and privacy-preserving data analysis.</p>
-        </article>
-
-        <article>
-          <h2>&nbsp;</h2>
-          <p><a href="research.html#evalues">Adaptive e-values and power simulation →</a></p>
-          <p>Studying how covariate-guided construction of e-values can improve power while preserving rigorous inference.</p>
-        </article>
+      <div class="wrap">
+        <h2>Current projects</h2>
+        <div class="project-grid">
+          <article>
+            <h3>Multiple Testing and Closed Testing</h3>
+            <p>
+              Ongoing research on closed-testing procedures, power, and error control in structured multiple-testing
+              problems.
+            </p>
+          </article>
+          <article>
+            <h3>Post-selection Inference and Privacy</h3>
+            <p>
+              Early-stage work on valid inference when data-dependent selection interacts with differential privacy
+              constraints.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="wrap contributions">
-      <h2>Selected Contributions</h2>
+    <section class="wrap selected">
+      <h2>Selected earlier work</h2>
       <ul>
-        <li><a href="research.html#ai-valuation">Valuation of AI Companies: Leveraging Large-Language Models and Deep Learning Approaches</a>, Proceedings of the 2024 10th International Conference on Computer Technology Applications.</li>
-        <li>Research projects in post-selection inference, differential privacy, and computational statistics.</li>
-        <li>Code and notes for reproducible statistical computation.</li>
+        <li><strong>Valuation of AI Companies using LLMs and Deep Learning.</strong> Developed a hybrid valuation framework combining deep-learning features with LLM-derived signals.</li>
+        <li><strong>Dynamic Portfolio Allocation.</strong> Studied portfolio and consumption choices using Markov decision processes and policy-iteration routines.</li>
+        <li><strong>DeFi Lending Pool Dynamics.</strong> Modeled stability, liquidation contagion, and protocol-level risk in decentralized lending systems.</li>
       </ul>
     </section>
   </main>
 
   <footer class="wrap footer">
     <span>© 2026 Zhizhen Chen.</span>
-    <span class="links">
-      <a href="mailto:zhizhenc@usc.edu">Email</a>
-      <a href="https://github.com/Zhizhen128">GitHub</a>
-      <a href="https://www.linkedin.com/in/zhizhen-chen-1458b321a">LinkedIn</a>
-      <a href="https://scholar.google.com/">Google Scholar</a>
-    </span>
+    <span><a href="mailto:zhizhenc@usc.edu">Email</a> · <a href="https://github.com/Zhizhen128">GitHub</a> · <a href="files/cv.pdf">CV</a></span>
   </footer>
 </body>
 </html>
